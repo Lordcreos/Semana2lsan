@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana2lsan.login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Calculador de promedios" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Entry x:Name="TxtDato1" Placeholder="Ingrese Nota de seguimiento1"/>
+            <Entry x:Name="TxtDato2" Placeholder="Examen 1"/>
+            <Entry x:Name="TxtDato3" Placeholder="Ingrese Nota de seguimiento2"/>
+            <Entry x:Name="TxtDato4" Placeholder="Examen 2"/>
+            <Entry x:Name="TxtTotal" Placeholder="Resultado total" IsReadOnly="True"/>
+            <Button  x:Name="btnTotal"
+                 Text="Calcular"
+                 Clicked="btnTotal_Clicked"
+                 />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
